@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LCT</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="font-sans bg-gradient-three-colors">
+    <div class="flex justify-center">
+      <img class="" src="asset/Logo CSS 1.png" alt="" />
+    </div>
+    <h1 class="px-4 text-3xl font-semibold text-center text-white">
+      Formulir Pendaftaran LCT
+    </h1>
+
+    <div class="flex justify-center">
+      <div class="w-full px-4 pb-8 mt-5 md:max-w-xl">
+        <div class="p-8 bg-custom-gray rounded-3xl">
+          <form action="test.html" method="post" enctype="multipart/form-data">
+            <!-- Profile Ketua Start -->
+            <div>
+              <h1 class="text-3xl font-semibold text-white">Profil Ketua</h1>
+              <div class="mt-2">
+                <label class="block font-semibold text-white" for="name1"
+                  >Nama Lengkap</label
+                >
+                <input
+                  class="w-full outline-none text-white bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="name1"
+                  type="text"
+                  name="name1"
+                  value="<?= $data['nama'] ?>"
+                />
+              </div>
+
+              <div class="mt-4">
+                <label class="block font-semibold text-white" for="telp1"
+                  >No. Telpon</label
+                >
+                <input
+                  class="w-full text-white outline-none bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="telp1"
+                  type="text"
+                  name="telp1"
+                  value="<?= $data['telpon'] ?>"
+                />
+              </div>
+
+              <div class="mt-4">
+                <label class="block font-semibold text-white" for="birth1"
+                  >Tanggal Lahir</label
+                >
+                <input
+                  class="w-full text-white outline-none bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="birth1"
+                  type="date"
+                  name="birth1"
+                />
+              </div>
+
+              <div class="mt-4">
+                <label class="block font-semibold text-white" for="gambar1"
+                  >Kartu Pelajar
+                  <span id="max" class="font-normal text-slate-300"
+                    >Max 1 Mb</span
+                  ></label
+                >
+                <input
+                  class="w-full outline-none text-white bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="gambar1"
+                  type="file"
+                  name="gambar1"
+                  accept="image/x-png,image/gif,image/jpeg"
+                />
+              </div>
+            </div>
+            <!-- Profile Ketua End -->
+            <!-- Profile Anggota 1 Start-->
+            <div class="mt-8">
+              <h1 class="text-3xl font-semibold text-white">
+                Profil Anggota 1
+              </h1>
+              <div class="mt-2">
+                <label class="block font-semibold text-white" for="name2"
+                  >Nama Lengkap</label
+                >
+                <input
+                  class="w-full outline-none text-white bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="name2"
+                  type="text"
+                  name="name2"
+                />
+              </div>
+
+              <div class="mt-4">
+                <label class="block font-semibold text-white" for="telp2"
+                  >No. Telpon</label
+                >
+                <input
+                  class="w-full outline-none text-white bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="telp2"
+                  type="text"
+                  name="telp2"
+                />
+              </div>
+
+              <div class="mt-4">
+                <label class="block font-semibold text-white" for="birth2"
+                  >Tanggal Lahir</label
+                >
+                <input
+                  class="w-full outline-none text-white bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="birth2"
+                  type="date"
+                  name="birth2"
+                />
+              </div>
+
+              <div class="mt-4">
+                <label
+                  class="block font-semibold text-white"
+                  for="gambar2"
+                  >Kartu Pelajar
+                  <span id="max" class="font-normal text-slate-300"
+                    >Max 1 Mb</span
+                  ></label
+                >
+                <input
+                  class="w-full outline-none text-white bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="gambar2"
+                  type="file"
+                  name="gambar2"
+                  accept="image/x-png,image/gif,image/jpeg"
+                />
+              </div>
+            </div>
+            <!-- Profile Anggota 1 End -->
+
+            <!-- Profile Anggota 2 Start -->
+            <div class="mt-8">
+              <h1 class="text-3xl font-semibold text-white">
+                Profil Anggota 2
+              </h1>
+              <div class="mt-2">
+                <label class="block font-semibold text-white" for="name3"
+                  >Nama Lengkap</label
+                >
+                <input
+                  class="w-full outline-none text-white bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="name3"
+                  type="text"
+                  name="name3"
+                />
+              </div>
+
+              <div class="mt-4">
+                <label class="block font-semibold text-white" for="telp3"
+                  >No. Telpon</label
+                >
+                <input
+                  class="w-full outline-none text-white bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="telp3"
+                  type="text"
+                  name="telp3"
+                />
+              </div>
+
+              <div class="mt-4">
+                <label class="block font-semibold text-white" for="birth3"
+                  >Tanggal Lahir</label
+                >
+                <input
+                  class="w-full outline-none text-white bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="birth3"
+                  type="date"
+                  name="birth3"
+                />
+              </div>
+
+              <div class="mt-4">
+                <label
+                  class="block font-semibold text-white"
+                  for="gambar3"
+                  >Kartu Pelajar
+                  <span id="max" class="font-normal text-slate-300"
+                    >Max 1 Mb</span
+                  ></label
+                >
+                <input
+                  class="w-full outline-none text-white bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="gambar3"
+                  type="file"
+                  name="gambar3"
+                  accept="image/x-png,image/gif,image/jpeg"
+                />
+              </div>
+            </div>
+            <!-- Profile Anggota 2 End -->
+
+            <!-- Pendamping -->
+            <div class="mt-8">
+              <h1 class="text-3xl font-semibold text-white">
+                Pendamping
+              </h1>
+              <div class="mt-2">
+                <label class="block font-semibold text-white" for="name4"
+                  >Nama Lengkap</label
+                >
+                <input
+                  class="w-full outline-none text-white bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="name4"
+                  type="text"
+                  name="name4"
+                />
+              </div>
+
+              <div class="mt-4">
+                <label class="block font-semibold text-white" for="telp4"
+                  >No. Telpon</label
+                >
+                <input
+                  class="w-full outline-none text-white bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="telp4"
+                  type="text"
+                  name="telp4"
+                />
+              </div>
+            </div>
+            <!-- Pendamping -->
+
+            <!-- Profile Tim Start -->
+            <div class="mt-8">
+              <h1 class="text-3xl font-semibold text-white">Profil Tim</h1>
+              <div class="mt-2">
+                <label class="block font-semibold text-white" for="username"
+                  >Email</label
+                >
+                <input
+                  class="w-full outline-none text-white bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="username"
+                  type="email"
+                  name="username"
+                  value="<?= $data['email'] ?>"
+                />
+              </div>
+
+              <div class="mt-4">
+                <label class="block font-semibold text-white" for="school"
+                  >Instansi</label
+                >
+                <input
+                  class="w-full outline-none text-white bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="school"
+                  type="text"
+                  name="school"
+                />
+              </div>
+
+              <div class="mt-4">
+                <label class="block font-semibold text-white" for="namaTim"
+                  >Nama Tim</label
+                >
+                <input
+                  class="text-white outline-none w-full bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  required
+                  id="namaTim"
+                  type="text"
+                  name="namaTim"
+                />
+              </div>
+            </div>
+            <!-- Profile Tim End -->
+
+            <!-- Administarasi Start -->
+            <div class="mt-8">
+              <h1 class="text-3xl font-semibold text-white">Administarasi</h1>
+              <div class="mt-2">
+                <label class="block font-semibold text-white" for="atasNama"
+                  >Atas Nama</label
+                >
+                <input
+                  class="w-full outline-none text-white bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  id="atasNama"
+                  type="text"
+                  name="atasNama"
+                />
+              </div>
+
+              <div class="mt-4">
+                <label class="block font-semibold text-white" for="divisi"
+                  >Divisi</label
+                >
+                <input
+                  class="w-full outline-none text-white bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  id="divisi"
+                  type="text"
+                  name="divisi"
+                />
+              </div>
+
+              <div class="mt-4">
+                <label class="block font-semibold text-white" for="buktiBayar"
+                  >Upload Bukti Pembayaran</label
+                >
+                <input
+                  class="text-white outline-none w-full bg-[#D9D9D933] py-2 mt-1 px-2 shadow-custom rounded-lg"
+                  id="buktiBayar"
+                  type="file"
+                  name="buktiBayar"
+                />
+              </div>
+            </div>
+            <!-- Administrasi End -->
+            <div class="flex gap-2 mt-8 text-white">
+              <button class="w-1/2 py-4 font-bold bg-red-500 rounded-xl">
+                Kembali
+              </button>
+              <button class="w-1/2 py-4 font-bold bg-green-400 rounded-xl">
+                Daftar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
